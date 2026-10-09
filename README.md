@@ -48,7 +48,7 @@ This project simulates a retail sales environment where the business needs to:
 
 The goal of this project is to demonstrate how MySQL can be used not only to retrieve data, but also to support **business analysis, data integrity, auditing, transaction management, and database performance optimization**.
 
---
+---
 
 ## 📊 Key Business Analysis
 
@@ -106,7 +106,7 @@ Examples include:
 - `EXPLAIN`
 - Index-friendly query conditions
 
---
+---
 
 ## 🧠 SQL Skills Demonstrated
 
@@ -134,6 +134,55 @@ Examples include:
 | INSERT / UPDATE / DELETE | ✅ |
 | SQL Safe Updates | ✅ |
 
+---
+
+## 📸 Project Screenshots
+
+The following screenshots demonstrate the SQL queries and outputs produced during testing in DB Fiddle.
+
+### 1. Employee Performance
+
+Shows employee-level sales counts and revenue calculated using a stored procedure.
+
+![Employee Performance](screenshots/employee-performance.png)
+
+### 2. Employee Revenue Function
+
+Demonstrates the use of a user-defined function to calculate revenue for each employee.
+
+![Employee Revenue Function](screenshots/employee-revenue-function.png)
+
+### 3. Sales Audit Log
+
+Shows the audit records generated when a sale's price is updated using a MySQL trigger.
+
+![Sales Audit Log](screenshots/audit-log.png)
+
+### 4. JSON Product Analysis
+
+Demonstrates the extraction of product attributes, including color, size, and material, from JSON data.
+
+![JSON Product Analysis](screenshots/json-analysis.png)
+
+### 5. Category Revenue Analysis
+
+Shows conditional aggregation used to compare revenue across product categories.
+
+![Category Revenue Analysis](screenshots/category-revenue.png)
+
+### 6. Query Optimization
+
+Demonstrates the use of `EXPLAIN` to inspect a query execution plan.
+
+![Query Optimization](screenshots/query-optimization.png)
+
+### 7. Transaction Rollback
+
+Shows a transaction example demonstrating rollback behavior.
+
+![Transaction Rollback](screenshots/transaction-rollback.png)
+
+---
 
 ## 🎯 Project Objectives
 
@@ -541,6 +590,7 @@ This provides a safe environment for experimenting with data modifications.
 
 ---
 
+
 # 🛠️ Technologies Used
 
 | Technology            | Purpose                            |
@@ -556,6 +606,25 @@ This provides a safe environment for experimenting with data modifications.
 | **EXPLAIN**           | Query execution analysis           |
 | **Temporary Tables**  | Testing and experimentation        |
 
+---
+
+## 🔄 Project Workflow
+
+The project follows a structured workflow to explore retail sales analysis and database management using MySQL.
+
+1. **Database Setup:** Prepared the required tables and sample retail sales data.
+2. **Data Preparation:** Added product attributes in JSON format and organized the data for analysis.
+3. **SQL Development:** Implemented stored procedures, a user-defined function, and a trigger for price-change auditing.
+4. **Business Analysis:** Calculated employee revenue and compared revenue across product categories.
+5. **Transaction Management:** Explored transaction control using `COMMIT`, `ROLLBACK`, and `SAVEPOINT`.
+6. **Query Performance Analysis:** Created indexes and used `EXPLAIN` to inspect query execution plans.
+7. **Testing and Documentation:** Executed queries using DB Fiddle, reviewed the outputs, and documented the project in GitHub.
+
+### Development Environment
+
+* **MySQL 8.0:** SQL development and database operations.
+* **DB Fiddle:** Online SQL execution and testing.
+* **GitHub:** Source code hosting and project documentation.
 ---
 
 # 📁 Repository Structure
@@ -669,6 +738,18 @@ This project is particularly relevant for entry-level roles such as:
 It demonstrates that SQL is being used beyond basic `SELECT` queries, including **automation, auditing, transaction management, business metrics, and performance optimization**.
 
 ---
+## ⚠️ Project Limitations
+
+* **Sample Dataset:** The project uses a small illustrative dataset and does not represent the full scale of a production retail database.
+* **Simplified Business Scenario:** The dataset and business rules represent a simplified retail environment.
+* **Audit Scope:** The audit trigger focuses on price changes rather than tracking every possible database modification.
+* **Performance Testing:** Indexing and execution-plan examples demonstrate query optimization concepts, but extensive benchmarking on large datasets has not been performed.
+* **Reporting:** The project focuses on SQL analysis and does not currently include an interactive BI dashboard.
+* **Data Validation:** Additional data-quality checks and validation rules could improve reliability.
+
+These limitations identify areas where the project could be extended to better reflect a production retail analytics environment.
+
+---
 
 # 🚀 Possible Future Enhancements
 
@@ -703,7 +784,7 @@ This project demonstrates how **MySQL can support the complete analytical workfl
 
 **Helan Preethi**
 
-Aspiring Data / Business / Finance Analytics Professional
+Finance Analytics Professional
 
 Interested in building practical analytics projects using:
 
