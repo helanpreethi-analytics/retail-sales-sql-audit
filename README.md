@@ -144,44 +144,43 @@ The following screenshots demonstrate the SQL queries and outputs produced durin
 
 Shows employee-level sales counts and revenue calculated using a stored procedure.
 
-![Employee Performance](screenshots/employee-performance.png)
+![Employee Performance](screenshots/employee-performance.png.png)
 
 ### 2. Employee Revenue Function
 
 Demonstrates the use of a user-defined function to calculate revenue for each employee.
 
-![Employee Revenue Function](screenshots/employee-revenue-function.png)
+![Employee Revenue Function](screenshots/employee-revenue-function.png.png)
 
 ### 3. Sales Audit Log
 
 Shows the audit records generated when a sale's price is updated using a MySQL trigger.
 
-![Sales Audit Log](screenshots/audit-log.png)
+![Sales Audit Log](screenshots/audit-log.png.png)
 
 ### 4. JSON Product Analysis
 
 Demonstrates the extraction of product attributes, including color, size, and material, from JSON data.
 
-![JSON Product Analysis](screenshots/json-analysis.png)
+![JSON Product Analysis](screenshots/json-analysis.png.png)
 
 ### 5. Category Revenue Analysis
 
 Shows conditional aggregation used to compare revenue across product categories.
 
-![Category Revenue Analysis](screenshots/category-revenue.png)
+![Category Revenue Analysis](screenshots/category-revenue.png.png)
 
 ### 6. Query Optimization
 
 Demonstrates the use of `EXPLAIN` to inspect a query execution plan.
 
-![Query Optimization](screenshots/query-optimization.png)
+![Query Optimization](screenshots/query-optimization.png.png)
 
 ### 7. Transaction Rollback
 
 Shows a transaction example demonstrating rollback behavior.
 
-![Transaction Rollback](screenshots/transaction-rollback.png)
-
+![Transaction Rollback](screenshots/transaction-rollback.png.png)
 ---
 
 ## 🎯 Project Objectives
